@@ -1,8 +1,7 @@
-yaml
-services:
-  - type: web
-    name: telegram-bot
-    env: python
-    plan: free
-    buildCommand: ""
-    startCommand: "python main.py"
+startCommand: python main.py
+    envVars:
+      - key: BOT_TOKEN
+        value: "8216384677:AAFLKENl0wiM87HMJxomy4aoLUUOcgYljR0"
+    scaling:
+      minInstances: 1
+      maxInstances: 1
