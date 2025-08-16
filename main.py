@@ -213,7 +213,7 @@ async def button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 def main():
     """Основная функция запуска бота"""
-    bot_token = os.getenv('BOT_TOKEN')
+    bot_token = os.getenv('8216384677:AAFLKENl0wiM87HMJxomy4aoLUUOcgYljR0')
     
     if not bot_token:
         print("❌ Ошибка: BOT_TOKEN не установлен в переменных окружения")
