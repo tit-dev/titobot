@@ -1468,5 +1468,3 @@ async def russian_command_handler(update: Update, context: ContextTypes.DEFAULT_
 
         except Exception as e:
             await update.message.reply_text(f"❌ Ошибка при размуте: {e}")
-
-    elif text == 'прав
